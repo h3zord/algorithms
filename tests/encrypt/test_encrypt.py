@@ -13,4 +13,3 @@ def test_encrypt_message():
 
     with pytest.raises(TypeError, match="tipo inválido para message"):
         encrypt_message(2, 2)
-    
