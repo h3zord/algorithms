@@ -62,6 +62,3 @@ def merge(word, start, mid, end):
             right_index = right_index + 1
 
     return word
-
-
-print(is_anagram("roma", "amor"))
